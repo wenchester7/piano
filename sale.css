@@ -1,0 +1,37 @@
+body{
+	background:url('images/pianos/man.jpg') no-repeat;
+	background-size:100% 170%; 
+	font-size:80%;
+	font-family:"Courier New",Courier, monospace;
+	letter-spacing:0.15em;
+
+}
+#page {
+	max-width:940px;
+	min-width:720px;
+	margin:10px auto 10px auto;
+	padding:20px;
+	border:4px double #000;
+	background-color:#ffffff;
+	position:relative;
+}
+#items{
+	position:relative;
+	width:90%;
+	height:70%;
+	margin:0px auto 0px auto;
+	border:4px double #000;
+	padding-top:10px;
+	padding-bottom:15px;
+	margin-top:64px;
+}
+#items img{
+	width:26%;
+	height:70%;
+	margin-top:20px;
+	padding:15px 0px 8px 0px;
+}
+
+#items a{
+	background-color:white;
+}

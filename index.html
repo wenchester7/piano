@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Piano</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA_Compatible" content="IE=Edge">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	 
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#page').css('display','none').slideDown('slow');
+			
+			$('#home').click(function(){
+				$('#page').slideUp('slow',function(){
+						location="index.html";
+						});
+			});
+		});	
+	</script>		
+</head>
+<body>
+<div>
+	<div id="page">
+		<div id="logo">
+			<img src="images/logo.gif" alt="logo of piano specialist"/>
+		</div>
+		<ul id="navigation">
+			<li><a href="index.html" class="on" id="home">Home</a></li>
+			<li><a href="for_sale.html" id="ForSale">For Sale</a></li>
+			<li><a href="#">Repairs</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<p id="main_img">
+			<img src="images/key.jpg" alt="Fender Rhodes, Hohner Clavinet and Wurlitzer EP200"/>
+		</p>
+		<p>We specialize in the sales  and repairs of classic keyboards, in particular the Fender Rhodes, Wurlizer EP200, and Hohner  Clavinet</p>
+	</div>
+</div>
+</body>
+</html>

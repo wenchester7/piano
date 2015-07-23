@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Piano for sale</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA_Compatible" content="IE=Edge">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="sale.css" rel="stylesheet" type="text/css"/>
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#page').css('display','none').slideDown('slow');
+			
+			$('#home').click(function(){
+				$('#page').slideUp('slow',function(){
+						location="index.html";
+						});
+			});
+		});//konec
+	</script>
+</head>
+<body>
+	<div id="page">
+		<div id="logo">
+			<img src="images/logo.gif" alt="Logo of piano specialist"/>
+		</div>
+		<ul id="navigation">
+			<li><a href="index.html" id="home">Home</a></li>
+			<li><a href="for_sale.html">For Sale</a></li>
+			<li><a href="#">Repairs</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		
+		</ul>
+					
+		<div id="items">
+			<a><img src="images/pianos/1.png" alt="piano expensive one"/></a>
+			<a><img src="images/pianos/2.jpg" alt="piano expensive one"/></a>
+			<a><img src="images/pianos/3.jpg" alt="piano expensive one"/></a>
+			<a><img src="images/pianos/4.jpg" alt="piano expensive one"/></a>
+			<a><img src="images/pianos/5.jpg" alt="piano expensive one"/></a>
+			<a><img src="images/pianos/6.jpg" alt="piano expensive one"/></a>
+		</div>
+		
+	</div>
+</body>
+</html>
